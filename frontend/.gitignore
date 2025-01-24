@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Environment variables
+.env
+
+# IDE configurations
+.idea/
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Node package lock file
+package-lock.json

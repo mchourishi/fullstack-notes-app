@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# IDE configurations
+.idea/
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Node package lock file
+package-lock.json

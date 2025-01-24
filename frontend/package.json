@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-challenge-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.13.1"
+  },
+  "scripts": {
+    "postinstall": "npm install --prefix client && npm install --prefix server",
+    "client": "PORT=3000 npm start --prefix client",
+    "server": "nodemon server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "populate-db": "cd ../backend && python3 populate_db.py"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^6.4.0"
+  }
+}
